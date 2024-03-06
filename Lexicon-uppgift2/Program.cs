@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
+
 
 bool loopty = true;
 
@@ -123,11 +122,6 @@ do
             Console.WriteLine("Invalid choice, please try again...");
             break;
     }
-
-    /* Menyval 1: Ungdom eller pensionär DONE
-     * Menyval 2: Upprepa tio gånger
-     * Menyval 3: Det tredje ordet
-     */
 } while (loopty);
 
 
